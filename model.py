@@ -1,10 +1,7 @@
 def predict_sentiment(text):
 
     """
-    Analyse le texte et retourne un sentiment :
-    - 'positive' si le texte contient 'happy' ou 'good'
-    - 'negative' si le texte contient 'sad' ou 'bad'
-    -  sinon 'neutral' 
+    Analyse le texte et retourne un sentiment en fonction de l'entrée de l'utilisateur
     """
 
     if not text:
